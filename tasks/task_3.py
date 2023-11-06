@@ -1,6 +1,7 @@
-first_number = ...  # Ваш код
-second_number = ...  # Ваш код
+first_number: float = float(input("Введите первое число: "))
+second_number: float = float(input("Введите второе число: "))
 
-result = ...  # Ваш код
+result: float = first_number > second_number
 
-print(...)  # Ваш код
+print(f"Число {first_number} больше числа {second_number} "
+      f"это - {result}")

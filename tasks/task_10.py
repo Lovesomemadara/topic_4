@@ -1,12 +1,12 @@
-number = ...  # Ваш код
+number: str = input("Введите положительное трехзначное число: ")
 
-hundreds = ...  # Ваш код
-tens = ...  # Ваш код
-units = ...  # Ваш код
+hundreds: int = int(number[0])
+tens: int = int(number[1])
+units: int = int(number[2])
 
-sum_digits = ...  # Ваш код
+sum_digits: int = int(hundreds + tens + units)
 
-product_digits = ...  # Ваш код
+product_digits: int = int(hundreds * tens * units)
 
-print(...)  # Ваш код
-print(...)  # Ваш код
+print(f"Сумма цифр: {sum_digits}")
+print(f"Произведение цифр: {product_digits}")

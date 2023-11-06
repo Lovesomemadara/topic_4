@@ -1,6 +1,7 @@
-interval = ...  # Ваш код
+interval: int = int(input("Введите величину временного интервала в "
+                          "минутах: "))
 
-hours = ...  # Ваш код
-minutes = ...  # Ваш код
+hours: int = int(interval / 60)
+minutes: float = interval % 60
 
-print(...)  # Ваш код
+print(f"Результат: {hours} часа {minutes} минут")

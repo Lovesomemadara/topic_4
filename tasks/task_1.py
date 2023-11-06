@@ -1,5 +1,5 @@
-number = ...  # Ваш код
+number: int = int(input("Введите целое число: "))
 
-result = ...  # Ваш код
+result: str = "Pyth" + number * "o" + "n"
 
-print(...)  # Ваш код
+print(result)
