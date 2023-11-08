@@ -1,8 +1,13 @@
 a: int = int(input("Введите число a: "))
 b: int = int(input("Введите число b: "))
 
-c: int = b
-d: int = a
+# Classic
+# temp = a
+# a = b
+# b = temp
 
-print("Значения после перестановки:")
-print(f"a = {c}\nb = {d}")
+# Python
+# a, b = b, a
+
+
+print(f"Значения после перестановки:\na = {b}\nb = {a}")
